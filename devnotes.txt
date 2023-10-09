@@ -1,0 +1,39 @@
+[v1.1]	RELEASE
+	Masks. Found in the "Mods" tab.
+	-----
+	Masks:
+	- Scarface (Appears as Dallas)
+	- Scarface Begins (Appears as Dallas Begins)
+
+[v1.2]	MELEE
+	Added Lumber Lite L2 melee weapon. Appears in the last page of your melees.
+	-----
+	Masks:
+	- Scarface (Appears as Dallas)
+	- Scarface Begins (Appears as Dallas Begins)
+	Weapons:
+	- [MELEE] Lumber Lite L2
+
+[v1.3]	ASSAULT RIFLE
+	Added the Little Friend 7.62 Assault Rifle. Appears in the Assault Rifles page as usual. Note that it has a orange flair instead.
+	-----
+	Masks:
+	- Scarface (Appears as Dallas)
+	- Scarface Begins (Appears as Dallas Begins)
+	Weapons:
+	- [PRIMARY] Little Friend 7.62 Assault Rifle
+	- [MELEE] Lumber Lite L2
+
+[v1.4]	WEAPON SKINS
+	Added 3 skins to the Little Friend 7.62 Assault Rifle. Unlocked by default. They are the same as the vanilla ones.
+	----
+	Masks:
+	- Scarface (Appears as Dallas)
+	- Scarface Begins (Appears as Dallas Begins)
+	Weapons:
+	- [PRIMARY] Little Friend 7.62 Assault Rifle
+	- [MELEE] Lumber Lite L2
+	Skins:
+	- [PRIMARY | CONTRABAND | LEGENDARY] Mansion Mauler
+	- [PRIMARY | CONTRABAND | COMMON] Chupacabra
+	- [PRIMARY | CONTRABAND | COMMON] Battle Zone

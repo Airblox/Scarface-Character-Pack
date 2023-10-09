@@ -1,0 +1,9 @@
+<table directory="assets">
+	<texture path="guis/dlcs/cash/safes/css/weapon_skins/counterfeit_contraband_css"/>
+	<texture path="guis/dlcs/chico/textures/pd2/blackmarket/icons/masks/counterfeit_terry_begins"/>
+	<texture path="guis/dlcs/chico/textures/pd2/blackmarket/icons/melee_weapons/counterfeit_cs"/>
+	<texture path="guis/dlcs/chico/textures/pd2/blackmarket/icons/masks/counterfeit_terry"/>
+	<texture path="guis/dlcs/cash/safes/mxs/weapon_skins/counterfeit_contraband_mxs"/>
+	<texture path="guis/dlcs/cash/safes/sfs/weapon_skins/counterfeit_contraband_sfs"/>
+	<texture path="guis/dlcs/chico/textures/pd2/blackmarket/icons/weapons/counterfeit_contraband"/>
+</table>

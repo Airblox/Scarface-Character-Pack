@@ -1,0 +1,245 @@
+<table name="Scarface Character Pack" author="Airblox">
+    <Localization directory="localization" default="english.txt"/>
+    <GlobalValue id="counterfeit_chico" color="Color(1, 1, 0.1)"/>
+    <GlobalValue id="counterfeit_chico_ws" color="Color(0, 0, 0)"/>
+
+    <Mask id="counterfeit_terry" based_on="dallas" unit="units/pd2_dlc_chico/masks/terry/msk_chc_terry" texture_bundle_folder="chico" global_value="counterfeit_chico"/>
+    <Mask id="counterfeit_terry_begins" based_on="dallas_clean" unit="units/pd2_dlc_chico/masks/terry_begins/msk_chc_terry_begins" texture_bundle_folder="chico" global_value="counterfeit_chico"/>
+
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_b_standard" based_on="wpn_fps_m4_uupg_b_medium_vanilla" a_obj="a_b" type="barrel" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_b_standard" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2"><stats value="1"/></WeaponMod>
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_body_standard" based_on="wpn_fps_m4_lower_reciever" a_obj="a_body" type="lower_reciever" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_body_standard" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2"><stats value="1"/></WeaponMod>
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_bolt_standard" based_on="wpn_fps_amcar_bolt_standard" a_obj="a_bolt" type="extra" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_bolt_standard" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2"><stats value="1"/></WeaponMod>
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_dh_standard" based_on="wpn_fps_ass_tecci_dh_standard" a_obj="a_dh" type="drag_handle" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_dh_standard" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2"><stats value="1"/></WeaponMod>
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_fg_standard" based_on="wpn_fps_amcar_uupg_fg_amcar" a_obj="a_fg" type="foregrip" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_fg_standard" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2"><stats value="1"/></WeaponMod>
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_g_standard" based_on="wpn_fps_ass_tecci_g_standard" a_obj="a_g" type="grip" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_g_standard" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2"><stats value="1"/></WeaponMod>
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_gl_m203" based_on="wpn_fps_ass_contraband_gl_m203" a_obj="a_gl" type="underbarrel" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_gl_m203" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2">
+        <bullet_objects amount="1" prefix="g_grenade_"/>
+        <stats value="1"/>
+        <animations bipod_reload="reload_ul"/>
+        <perks><value_node value="underbarrel"/></perks>
+    </WeaponMod>
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_m_standard" based_on="wpn_fps_ass_tecci_m_drum" a_obj="a_m" type="magazine" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_m_standard" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2"><stats value="1"/></WeaponMod>
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_ns_standard" based_on="wpn_fps_ass_tecci_ns_standard" a_obj="a_ns" type="barrel_ext" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_ns_standard" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2"><stats value="1"/></WeaponMod>
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_o_standard" based_on="wpn_fps_ass_tecci_o_standard" a_obj="a_o" type="sight" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_o_standard" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2">
+        <stats value="1"/>
+        <forbids>
+            <value_node value="wpn_fps_upg_o_xpsg33_magnifier"/>
+            <value_node value="wpn_fps_upg_o_45rds"/>
+            <value_node value="wpn_fps_upg_o_45rds_v2"/>
+            <value_node value="wpn_fps_upg_o_sig"/>
+            <value_node value="wpn_fps_upg_o_45steel"/>
+        </forbids>
+    </WeaponMod>
+    <WeaponMod id="wpn_fps_ass_counterfeit_contraband_s_standard" based_on="wpn_fps_ass_tecci_s_standard" a_obj="a_s" type="stock" unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband_pts/wpn_fps_ass_contraband_s_standard" wpn_pts="wpn_fps_counterfeit_contraband" hidden="true" ver="2"><stats value="1"/></WeaponMod>
+    <Weapon unlock_level="41">
+        <weapon id="counterfeit_contraband" based_on="amcar" global_value="counterfeit_chico" FIRE_MODE="single" CAN_TOGGLE_FIREMODE="true" CLIP_AMMO_MAX="20" NR_CLIPS_MAX="3" ammo_default_sub_type="ammo_explosive" texture_bundle_folder="chico" panic_suppression_chance="0.2">
+            <animations equip_id="equip_contraband" recoil_steelsight="true" reload_name_id="contraband"/>
+            <AMMO_PICKUP>
+                <value_node value="1.08"/>
+                <value_node value="2.4"/>
+            </AMMO_PICKUP>
+            <stats zoom="1" total_ammo_mod="21" damage="160" alert_size="7" spread="19" spread_moving="15" recoil="12" value="9" extra_ammo="51" reload="11" suppression="8" concealment="8"/>
+            <kick>
+                <standing>
+					<value_node value="0.6"/>
+					<value_node value="0.8"/>
+					<value_node value="-1"/>
+					<value_node value="1"/>
+				</standing>
+                <crouching>
+					<value_node value="0.6"/>
+					<value_node value="0.8"/>
+					<value_node value="-1"/>
+					<value_node value="1"/>
+				</crouching>
+                <steelsight>
+					<value_node value="0.6"/>
+					<value_node value="0.8"/>
+					<value_node value="-1"/>
+					<value_node value="1"/>
+				</steelsight>
+            </kick>
+            <spread standing="3" crouching="1.2" steelsight="1.2" moving_standing="3" moving_crouching="3" moving_steelsight="1.2"/>
+            <crosshair>
+                <standing offset="0.14" moving_offset="0.8" kick_offset="0.6"/>
+                <crouching offset="0.1" moving_offset="0.6" kick_offset="0.4"/>
+                <steelsight hidden="true" offset="0" moving_offset="0" kick_offset="0.14"/>
+            </crosshair>
+            <shake fire_multiplier="1" fire_steelsight_multiplier="1"/>
+            <fire_mode_data fire_rate="0.098"/>
+            <auto fire_rate="0.098"/>
+            <sounds fire="contraband_fire_single" fire_auto="contraband_fire" fire_single="contraband_fire_single" stop_fire="contraband_stop" dryfire="primary_dryfire" enter_steelsight="secondary_steel_sight_enter" leave_steelsight="secondary_steel_sight_exit" use_fix="true"/>
+            <timers reload_not_empty="2.55" reload_empty="3.2" unequip="0.6" equip="0.5"/>
+        </weapon>
+        <factory unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband/wpn_fps_ass_contraband" third_unit="units/pd2_dlc_chico/weapons/wpn_fps_ass_contraband/wpn_fps_ass_contraband_npc">
+            <animations reload_not_empty="reload_not_empty" fire="recoil" fire_steelsight="recoil" bipod_reload="bipod_reload" bipod_fire="bipod_recoil" reload="reload" bipod_fire_steelsight="bipod_recoil_zoom"/>
+            <optional_types>
+                <value_node value="gadget"/>
+                <value_node value="sight"/>
+                <value_node value="barrel_ext"/>
+            </optional_types>
+            <forbids><value_node value="wpn_fps_addon_ris"/></forbids>
+            <adds/>
+            <default_blueprint>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_b_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_body_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_bolt_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_dh_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_fg_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_g_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_gl_m203"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_m_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_ns_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_o_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_s_standard"/>
+            </default_blueprint>
+            <uses_parts>
+                <!--Copy from source; weaponfactorytweakdata.lua-->
+                <value_node value="wpn_fps_ass_counterfeit_contraband_b_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_body_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_dh_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_fg_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_g_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_gl_m203"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_m_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_ns_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_o_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_s_standard"/>
+                <value_node value="wpn_fps_ass_counterfeit_contraband_bolt_standard"/>
+                <value_node value="wpn_fps_upg_i_singlefire"/>
+                <value_node value="wpn_fps_upg_i_autofire"/>
+                <value_node value="wpn_fps_upg_o_specter"/>
+                <value_node value="wpn_fps_upg_o_aimpoint"/>
+                <value_node value="wpn_fps_upg_o_docter"/>
+                <value_node value="wpn_fps_upg_o_eotech"/>
+                <value_node value="wpn_fps_upg_o_t1micro"/>
+                <value_node value="wpn_fps_upg_o_cmore"/>
+                <value_node value="wpn_fps_upg_o_aimpoint_2"/>
+                <value_node value="wpn_fps_upg_o_acog"/>
+                <value_node value="wpn_fps_upg_fl_ass_smg_sho_peqbox"/>
+                <value_node value="wpn_fps_upg_fl_ass_smg_sho_surefire"/>
+                <value_node value="wpn_fps_upg_ns_ass_smg_large"/>
+                <value_node value="wpn_fps_upg_ns_ass_smg_medium"/>
+                <value_node value="wpn_fps_upg_ns_ass_smg_small"/>
+                <value_node value="wpn_fps_upg_ns_ass_smg_firepig"/>
+                <value_node value="wpn_fps_upg_ns_ass_smg_stubby"/>
+                <value_node value="wpn_fps_upg_ns_ass_smg_tank"/>
+                <value_node value="wpn_fps_lmg_kacchainsaw_ns_muzzle"/>
+                <value_node value="wpn_fps_lmg_kacchainsaw_ns_suppressor"/>
+                <value_node value="wpn_fps_upg_o_eotech_xps"/>
+                <value_node value="wpn_fps_upg_o_reflex"/>
+                <value_node value="wpn_fps_upg_o_rx01"/>
+                <value_node value="wpn_fps_upg_o_rx30"/>
+                <value_node value="wpn_fps_upg_o_cs"/>
+                <value_node value="wpn_fps_upg_ass_ns_jprifles"/>
+                <value_node value="wpn_fps_upg_ass_ns_linear"/>
+                <value_node value="wpn_fps_upg_ass_ns_surefire"/>
+                <value_node value="wpn_fps_upg_fl_ass_peq15"/>
+                <value_node value="wpn_fps_upg_fl_ass_laser"/>
+                <value_node value="wpn_fps_upg_fl_dbal_laser"/>
+                <value_node value="wpn_fps_upg_ass_ns_battle"/>
+                <value_node value="wpn_fps_upg_fl_ass_utg"/>
+                <value_node value="wpn_fps_upg_o_45rds"/>
+                <value_node value="wpn_fps_upg_o_spot"/>
+                <value_node value="wpn_fps_upg_o_xpsg33_magnifier"/>
+                <value_node value="wpn_fps_upg_o_45rds_v2"/>
+                <value_node value="wpn_fps_ass_shak12_ns_suppressor"/>
+                <value_node value="wpn_fps_ass_shak12_ns_muzzle"/>
+                <value_node value="wpn_fps_upg_ns_ass_smg_v6"/>
+                <value_node value="wpn_fps_upg_o_sig"/>
+                <value_node value="wpn_fps_upg_o_bmg"/>
+                <value_node value="wpn_fps_upg_o_uh"/>
+                <value_node value="wpn_fps_upg_o_fc1"/>
+                <value_node value="wpn_fps_upg_o_45steel"/>
+                <value_node value="wpn_fps_lmg_hk51b_ns_jcomp"/>
+                <value_node value="wpn_fps_upg_o_tf90"/>
+                <value_node value="wpn_fps_upg_o_poe"/>
+                <value_node value="wpn_fps_upg_o_hamr"/>
+                <value_node value="wpn_fps_upg_o_atibal"/>
+                <value_node value="wpn_fps_upg_o_health"/>
+                <!--Underbarrel-->
+                <value_node value="wpn_fps_upg_a_underbarrel_electric"/>
+                <value_node value="wpn_fps_upg_a_underbarrel_poison"/>
+                <value_node value="wpn_fps_upg_a_underbarrel_hornet"/>
+            </uses_parts>
+        </factory>
+        <stance>
+            <crouched>
+                <shoulders rotation="0 -8.72665e-006 0 -1" translation="-0.529 -3.934 -2.191"/>
+            </crouched>
+            <steelsight>
+                <shoulders rotation="0 -8.72665e-006 0 -1" translation="-10.529 -2.934 2.309"/>
+            </steelsight>
+            <standard>
+                <shoulders rotation="0 -8.72665e-006 0 -1" translation="0.471 -2.934 -1.191"/>
+            </standard>
+            <player_turret>
+                <shoulders rotation="-0 0 -0 -1" translation="0 0 0"/>
+            </player_turret>
+        </stance>
+    </Weapon>
+    <WeaponSkin id="counterfeit_contraband_mxs" weapon_id="counterfeit_contraband" name="bm_wskn_contraband_mxs" desc="bm_wskn_contraband_mxs_desc" rarity="common" bonus="recoil_p1" texture_bundle_folder="cash/safes/mxs" base_gradient="units/payday2_cash/safes/mxs/base_gradient/base_mxs_003_b_df" pattern_gradient="units/payday2_cash/safes/bah/pattern_gradient/gradient_bah_002_df" pattern_pos="-0.348308 0.0920584 0" uv_offset_rot="-0.001 0 0" global_value="counterfeit_chico_ws">
+        <parts>
+            <wpn_fps_ass_counterfeit_contraband_body_standard><ce53cb869d779872 base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_007_df" uv_offset_rot="0.0348202 0.922013 0" uv_scale="8.3197 9.27319 1"/></wpn_fps_ass_counterfeit_contraband_body_standard>
+            <wpn_fps_ass_counterfeit_contraband_m_standard><5a59c88e60c2af0b base_gradient="units/payday2_cash/safes/mxs/base_gradient/base_mxs_002_df"/></wpn_fps_ass_counterfeit_contraband_m_standard>
+        </parts>
+        <types>
+            <magazine pattern_tweak="0 0 1"/>
+        </types>
+    </WeaponSkin>
+    <WeaponSkin id="counterfeit_contraband_css" weapon_id="counterfeit_contraband" name="bm_wskn_contraband_css" desc="bm_wskn_contraband_css_desc" rarity="common" bonus="spread_p1" texture_bundle_folder="cash/safes/css" base_gradient="units/payday2_cash/safes/css/base_gradient/base_css_002_df" pattern_gradient="units/payday2_cash/safes/bah/pattern_gradient/gradient_bah_001_df" global_value="counterfeit_chico_ws">
+        <parts>
+            <wpn_fps_upg_o_eotech><mtr_eotech pattern="units/payday2_cash/safes/css/pattern/css_pattern_002_b_df" sticker="units/payday2_cash/safes/css/sticker/css_sticker_002_b_df" pattern_tweak="1.06368 0 1" uv_offset_rot="-0.007 0.805537 0" uv_scale="11.1595 11.1595 0" pattern_pos="-0.315069 0.960172 0"/></wpn_fps_upg_o_eotech>
+            <wpn_fps_ass_counterfeit_contraband_gl_m203><6412eb0fdea91f9c pattern="units/payday2_cash/safes/css/pattern/css_pattern_002_df" pattern_pos="1.399 1.67565 0" pattern_tweak="2.59003 0 1"/></wpn_fps_ass_counterfeit_contraband_gl_m203>
+            <wpn_fps_ass_counterfeit_contraband_body_standard>
+                <11f00d59e01de219 pattern="units/payday2_cash/safes/css/pattern/css_pattern_002_df" pattern_pos="0.263773 -0.0128784 0" pattern_tweak="2.59003 0 1"/>
+                <ce53cb869d779872 pattern="units/payday2_cash/safes/css/pattern/css_pattern_002_df" pattern_pos="1.58979 1.399 0" pattern_tweak="1.67546 0 1"/>
+            </wpn_fps_ass_counterfeit_contraband_body_standard>
+        </parts>
+        <types>
+            <stock pattern="units/payday2_cash/safes/css/pattern/css_pattern_002_c_df" sticker="units/payday2_cash/safes/css/sticker/css_sticker_002_df" pattern_tweak="2.06535 0 1" uv_scale="6.16004 6.16004 0" pattern_pos="0.292392 0.0443599 0" uv_offset_rot="0.0157406 0.922553 6.11835"/>
+            <foregrip pattern="units/payday2_cash/safes/css/pattern/css_pattern_002_df" pattern_pos="0.922013 1.34176 0" pattern_tweak="2.11505 6.28319 1"/>
+        </types>
+    </WeaponSkin>
+    <WeaponSkin id="counterfeit_contraband_sfs" weapon_id="counterfeit_contraband" name="bm_wskn_contraband_sfs" desc="bm_wskn_contraband_sfs_desc" rarity="legendary" bonus="spraed_p1" unique_name="true" texture_bundle_folder="cash/safes/sfs" base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_017_b_df" pattern_gradient="units/payday2_cash/safes/bah/pattern_gradient/gradient_bah_001_df" pattern="units/payday2_cash/safes/sfs/pattern/sfs_pattern_003_df" pattern_tweak="2.35154 0 1" pattern_pos="-0.184593 0.406869 0" global_value="counterfeit_chico_ws">
+        <parts>
+            <wpn_fps_ass_counterfeit_contraband_s_standard><6f38fa894899fda9 uv_offset_rot="-0.0500371 0.946172 0" uv_scale="18.1884 20 1"/></wpn_fps_ass_counterfeit_contraband_s_standard>
+            <wpn_fps_upg_o_spot><1281bdd104404adc pattern_tweak="0 0 1" base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_005_c_df" pattern="units/payday2_cash/safes/shared/pattern/pattern_acryl_001_df"/></wpn_fps_upg_o_spot>
+            <wpn_fps_ass_counterfeit_contraband_dh_standard><e4d821c4221ca8c3 base_gradient="units/payday2_cash/safes/buck/base_gradient/base_buck_015_df"/></wpn_fps_ass_counterfeit_contraband_dh_standard>
+            <wpn_fps_ass_counterfeit_contraband_gl_m203><6412eb0fdea91f9c base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_018_df" pattern_tweak="2.78083 0 1"/></wpn_fps_ass_counterfeit_contraband_gl_m203>
+            <wpn_fps_ass_counterfeit_contraband_b_standard><25a06fbb8cd5696d base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_018_df"/></wpn_fps_ass_counterfeit_contraband_b_standard>
+            <wpn_fps_ass_counterfeit_contraband_m_standard><5a59c88e60c2af0b pattern_tweak="1.39757 4.76971 0" cubemap_pattern_control="1 1 0" pattern_pos="0.537425 1.2101 0"/></wpn_fps_ass_counterfeit_contraband_m_standard>
+            <wpn_fps_ass_counterfeit_contraband_body_standard>
+                <11f00d59e01de219 base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_018_e_df" pattern_gradient="units/payday2_cash/safes/lones/pattern_gradient/gradient_lones_005_df" sticker="units/payday2_cash/safes/grunt/sticker/grunt_sticker_022_df" uv_scale="20 20 1" uv_offset_rot="-0.143355 0.913013 6.22325" pattern_tweak="0 0 1" pattern="units/payday2_cash/safes/lones/pattern/lones_pattern_003_df"/>
+                <ce53cb869d779872 base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_007_df" uv_offset_rot="0.08936 0.893934 6.27319" uv_scale="20 20 1" pattern_pos="0.149297 1.04603 0" pattern_tweak="0 0 1" pattern="units/payday2_cash/safes/lones/pattern/lones_pattern_001_df"/>
+            </wpn_fps_ass_counterfeit_contraband_body_standard>
+            <wpn_fps_upg_fl_ass_peq15><444ef1e058f2e44e base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_001_b_df" pattern_tweak="0 0 1" pattern_gradient="units/payday2_cash/safes/buck/pattern_gradient/gradient_buck_003_df" pattern="units/payday2_cash/safes/sfs/pattern/sfs_pattern_006_df"/></wpn_fps_upg_fl_ass_peq15>
+            <wpn_fps_ass_counterfeit_contraband_fg_standard><964161b4eb4b81d3 base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_018_d_df" pattern_tweak="1.96995 0 1"/></wpn_fps_ass_counterfeit_contraband_fg_standard>
+            <wpn_fps_ass_counterfeit_contraband_g_standard><610a834f63be4a13 pattern_tweak="3.01932 0 1" base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_005_b_df" pattern_pos="1.18413 1.06765 0" pattern_gradient="units/payday2_cash/safes/sfs/pattern_gradient/gradient_sfs_002_df" pattern="units/payday2_cash/safes/sfs/pattern/sfs_pattern_012_df"/></wpn_fps_ass_counterfeit_contraband_g_standard>
+            <wpn_fps_ass_counterfeit_contraband_bolt_standard><ce53cb869d779872 base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_018_b_df"/></wpn_fps_ass_counterfeit_contraband_bolt_standard>
+        </parts>
+        <types>
+            <underbarrel base_gradient="units/payday2_cash/safes/buck/base_gradient/base_buck_015_df" pattern_tweak="4.49797 0 1"/>
+            <barrel base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_018_c_df"/>
+            <magazine base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_018_f_df" pattern_tweak="0 0 1"/>
+            <stock base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_018_c_df" pattern_pos="-0.146434 0.06536 0"/>
+            <grip base_gradient="units/payday2_cash/safes/buck/base_gradient/base_buck_010_df"/>
+            <sight base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_018_b_df" pattern_tweak="0.682091 0 1"/>
+            <barrel_ext base_gradient="units/payday2_cash/safes/sfs/base_gradient/base_sfs_001_df"/>
+        </types>
+    </WeaponSkin>
+
+    <Melee id="counterfeit_cs" based_on="iceaxe" global_value="counterfeit_chico" unit="units/pd2_dlc_chico/weapons/wpn_fps_mel_cs/wpn_fps_mel_cs" third_unit="units/pd2_dlc_chico/weapons/wpn_fps_mel_cs/wpn_third_mel_cs" unlock_level="23" type="axe" dlc="counterfeit_chico" texture_bundle_folder="chico" anim_global_param="melee_cs" melee_repeat_expire_t="2" expire_t="1.2" repeat_expire_t="2" melee_damage_delay="0.35">
+        <stats min_damage="7" max_damage="45" min_damage_effect="1" max_damage_effect="1" charge_time="4" range="185" concealment="25"/>
+        <sounds weapon_type="sharp" equip="cs_equip" hit_air="cs_hit_air" hit_gen="cs_hit_gen" hit_body="cs_hit_body" charge="cs_charge"/>
+        <align_objects>
+            <value_node value="a_weapon_left"/>
+            <value_node value="a_weapon_right"/>
+        </align_objects>
+    </Melee>
+    
+    <Hooks directory="hooks">
+            <hook source_file="lib/tweak_data/weaponfactorytweakdata" file="weaponfactorytweakdata.lua"/>
+    </Hooks>
+    <AddFiles directory="assets" auto_generate="true"/>
+</table>

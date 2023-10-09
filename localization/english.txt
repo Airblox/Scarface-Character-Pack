@@ -1,0 +1,11 @@
+{
+    "bm_msk_counterfeit_terry" : "Scarface",
+    "bm_msk_counterfeit_terry_desc" : "Scarface came to the US with nothing more than two empty hands and a bad attitude, the darkness in his heart matched only by the brilliance of his criminal mind. His mask tells the story, complete with the trail of blood that he left in his wake as he began to make his mark.",
+    "bm_msk_counterfeit_terry_begins": "Scarface Begins",
+    "bm_msk_counterfeit_terry_begins_desc": "This is a clean version of the iconic Scarface mask, before it was painted.\n\nNever liked how the original one turned out? This is your chance to change history.",
+    "menu_l_global_value_counterfeit_chico" : "This is a Scarface Character Pack item!",
+    "menu_l_global_value_counterfeit_chico_ws": " ",
+    "menu_counterfeit_scarface":"Scarface",
+    "bm_melee_counterfeit_cs": "Lumber Lite L2",
+    "bm_w_counterfeit_contraband": "Little Friend 7.62 Assault Rifle"
+}
